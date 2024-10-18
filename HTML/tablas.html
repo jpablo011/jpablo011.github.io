@@ -1,0 +1,443 @@
+<html>
+    <head>
+        <title> TABLAS EN HTML </title>
+        <link rel="stylesheet" href="../css/stylepage.css">
+        <style type="text/css">
+            
+        #tabla_1 {
+                text-align: center;
+                margin: 0 auto;
+                color: aliceblue;
+                width: 100%;
+                border-style: solid;
+                border-color: #FFB2C1;
+                border-width: 5px;
+                border-spacing: 10px;
+                
+            }
+            
+            #tabla_1 th {
+                background-color: #855e63;
+                color: aliceblue;
+            }
+            
+            #tabla_1 td {
+                background-color: #CE7095;
+                text-align: left;
+                border-radius: 5px;
+                border-style: solid;
+                border-color: #FFB2C1;
+                border-width: 2px;
+                margin: 10px;
+            }
+
+            
+            
+            
+            /* Estilos para la segunda tabla */
+            .tabla_2 {
+                width: 650px;
+                border-collapse: collapse;
+                border color: aliceblue;
+                border-style: solid;
+                margin: 0 auto;
+            }
+            
+            .tabla_2 td {
+                width: 150px;
+                border-color: aliceblue;
+                border-width: 2px;
+                background-color: #FFB2C1;
+                color: aliceblue;
+                padding: 10px;
+                border-style: dashed;            
+            }
+            
+            .tabla_2 th {
+                border-style: dashed;
+                border-color: antiquewhite;
+                border-width: 2px;
+                background-color: #855e63;
+                color: aliceblue;
+            }
+
+            
+            
+            /* Estilos para la tercera tabla */
+            #tabla_3 {
+                width: 100%;
+                border-collapse: collapse;
+                color: #FFB2C1;
+                background-color: #f9f9f9;
+                border: 2px solid #855e63;
+                border-width: 5px;
+            }
+
+            #tabla_3 th {
+                background-color: #FFB2C1;
+                color: white;
+                padding: 10px;
+            }
+
+            #tabla_3 td {
+                padding: 8px;
+                border: 3px solid antiquewhite;
+                text-align: center;
+            }
+
+            #tabla_3 tbody tr:nth-child(even) {
+                background-color: #855e63;
+                text-align: left;
+            }
+
+
+            
+            
+            
+            
+            /* Estilos para la cuarta tabla */
+            .tabla_4 {
+                width: 80%;
+            }
+
+            .tabla_4 tr:hover {
+                background-color: #855e63;
+                color #FFB2C1;
+            }
+           
+            .tabla_4 {
+                text-align: center;
+                margin: 0 auto;
+                color: aliceblue;
+                width: 100%;
+                border-style: solid;
+                border-color: #FFB2C1;
+                border-width: 5px;
+                border-spacing: 10px; 
+            }
+            
+            .tabla_4 th {
+                background-color: #855e63;
+                color: aliceblue;
+            }
+            
+            .tabla_4 tr{
+                background-color: #FFB2C1;
+            }
+            
+            .tabla_4 td {
+                text-align: left;
+                border-radius: 5px;
+                border-style: solid;
+                border-color: #CE7095;
+                border-width: 3px;
+                margin: 10px;
+              
+            
+            
+            
+        </style>
+    </head>
+    <body>
+        <header>
+        <h1> TABLAS EN HTML</h1>
+        </header>
+        <nav>
+         <ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="listas.html">Listas</a></li>
+            <li><a href="enlaces.html">Enlaces</a></li>
+            <li><a href="tablas.html">Tablas</a></li>
+            <li><a href="imagenes.html">Imagenes</a></li>
+            <li><a href="audios.html">Audios</a></li>
+            <li><a href="../HTML/videos.html">Video</a></li>
+            <li><a href="../HTML/formularios.html">Formularios</a></li>
+
+        </ul>
+        </nav>
+    <main>
+        <section style="overflow-x: auto">
+            <h2> Tablas </h2>
+            <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Purus blandit ipsum ac at vel viverra consequat. Sem enim praesent maecenas; cras id sapien. Efficitur convallis augue, praesent bibendum aenean pretium pretium. Libero praesent viverra lacinia tristique gravida habitant. Integer maecenas maecenas maecenas; amet dis pharetra consectetur odio. Pulvinar lacinia fringilla habitasse luctus; placerat mattis conubia. Ante commodo volutpat dolor ante conubia ac litora himenaeos. Ex leo turpis lacinia mollis himenaeos purus.</p>
+            <table border="1" id="tabla_1">
+                <thead>
+                    <tr>
+                        <th>Matricula</th>
+                        <th>Nombre</th>
+                        <th>Apellido Paterno</th>
+                        <th>Apellido Materno</th>
+                        <th>Colegio</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>202155310</td>
+                        <td>Juan Pablo</td>
+                        <td>Ríos</td>
+                        <td>Peralta</td>
+                        <td>Diseño Gráfico</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>202199892</td>
+                        <td>Isaias</td>
+                        <td>Gómez</td>
+                        <td>Gúzman</td>
+                        <td>Diseño Gráfico</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>202123618</td>
+                        <td>Salvador</td>
+                        <td>Hugar</td>
+                        <td>Hill</td>
+                        <td>Arquitectura</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>202172047</td>
+                        <td>Miguel </td>
+                        <td>Ortiz</td>
+                        <td>Aguilar</td>
+                        <td>Urbano</td>
+                    </tr>
+                    
+                     <tr>
+                        <td>202195321</td>
+                        <td>Fernando</td>
+                        <td>Valderrama</td>
+                        <td>Hernández</td>
+                        <td>Diseño Gráfico</td>
+                    </tr>
+                    
+                     <tr>
+                        <td>2022435321</td>
+                        <td>Oliver</td>
+                        <td>Barrancos</td>
+                        <td>Clemente</td>
+                        <td> Arquitectura</td>
+                    </tr>
+                    
+                </tbody>
+                <tfoot></tfoot>
+            </table>
+        </section>
+        <section style="overflow-x: auto">
+            <h2> Tablas </h2>
+            <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Purus blandit ipsum ac at vel viverra consequat. Sem enim praesent maecenas; cras id sapien. Efficitur convallis augue, praesent bibendum aenean pretium pretium. Libero praesent viverra lacinia tristique gravida habitant. Integer maecenas maecenas maecenas; amet dis pharetra consectetur odio. Pulvinar lacinia fringilla habitasse luctus; placerat mattis conubia. Ante commodo volutpat dolor ante conubia ac litora himenaeos. Ex leo turpis lacinia mollis himenaeos purus.</p>
+            <table class="tabla_2" border="1">
+                <thead>
+                    <tr>
+                        <th style="width: 200px">Nombre</th>
+                        <th>Edad</th>
+                        <th colspan="2">Télefono</th>
+                        <th>Cooperación</th>
+                    </tr>
+                </thead>
+                
+                <tbody>
+                    <tr>
+                        <td>Rashel Gárcia</td>
+                        <td style="text-align: center; padding: 0px">14</td>
+                        <td>222 323 4830</td>
+                        <td>222 323 4830</td>
+                        <td style="background-color: #855e63; text-align: center;">$50</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Danfne Tolentino</td>
+                        <td style="text-align: center; padding: 0px">13</td>
+                        <td>222 463 3202</td>
+                        <td></td>
+                        <td style="background-color: #855e63; text-align: center;">$89</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Paola Rojas</td>
+                        <td style="text-align: center; padding: 0px">14</td>
+                        <td>222 342 6360</td>
+                        <td>222 323 4830</td>
+                        <td style="background-color: #855e63; text-align: center;">$20</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Alejandra Sánchez</td>
+                        <td style="text-align: center; padding: 0px">15</td>
+                        <td></td>
+                        <td>222 323 4830</td>
+                        <td style="background-color: #855e63; text-align: center;">$100</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Deny Ángeles</td>
+                        <td style="text-align: center; padding: 0px">14</td>
+                        <td>222 538 3420</td>
+                        <td>222 323 4830</td>
+                        <td style="background-color: #855e63; text-align: center;">$45</td>
+                    </tr>
+                    
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td class="celda_centrada" style="background-color: #CE7095; color: aliceblue; text-align: center">$304</td>
+                    </tr>
+                </tfoot>
+            
+            
+            
+            
+            
+            
+            
+            </table>
+        </section>
+        <section style="overflow-x: auto">
+            <h2> Tablas </h2>
+            <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Purus blandit ipsum ac at vel viverra consequat. Sem enim praesent maecenas; cras id sapien. Efficitur convallis augue, praesent bibendum aenean pretium pretium. Libero praesent viverra lacinia tristique gravida habitant. Integer maecenas maecenas maecenas; amet dis pharetra consectetur odio. Pulvinar lacinia fringilla habitasse luctus; placerat mattis conubia. Ante commodo volutpat dolor ante conubia ac litora himenaeos. Ex leo turpis lacinia mollis himenaeos purus.</p>
+            
+            
+            <table id="tabla_3">
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Edad</th>
+                        <th>Deporte</th>
+                        <th>Telefono</th>
+                        <th>E-mail</th>
+                    </tr>
+                </thead>
+                
+                <tbody>
+                    <tr>
+                        <td>Ariel Pérez</td>
+                        <td>18</td>
+                        <td>Futból</td>
+                        <td>222 246 2826</td>
+                        <td>moxxita@gamil.com</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Pablo Ríos</td>
+                        <td>20</td>
+                        <td>Tennis</td>
+                        <td>222 543 6826</td>
+                        <td>pablo@gamil.com</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>María Machorro</td>
+                        <td>21</td>
+                        <td>Natación</td>
+                        <td>222 432 5287</td>
+                        <td>maria12@gmai.com</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Penelope Mayo</td>
+                        <td>19</td>
+                        <td>Atletismo</td>
+                        <td>332482628</td>
+                        <td>penelope12@gmail.com</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Antonio Contreras</td>
+                        <td>21</td>
+                        <td>Basketball</td>
+                        <td>222 546 9287</td>
+                        <td>antony@gmail.com</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Samuel Alvaréz</td>
+                        <td>24</td>
+                        <td>Salto con Garrocha</td>
+                        <td>221 232 4353</td>
+                        <td>sam@gmail.com</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            
+        </section>
+        
+        
+        <section style="overflow-x: auto">
+            <h2> Tablas </h2>
+            <p>Lorem ipsum odor amet, consectetuer adipiscing elit. Purus blandit ipsum ac at vel viverra consequat. Sem enim praesent maecenas; cras id sapien. Efficitur convallis augue, praesent bibendum aenean pretium pretium. Libero praesent viverra lacinia tristique gravida habitant. Integer maecenas maecenas maecenas; amet dis pharetra consectetur odio. Pulvinar lacinia fringilla habitasse luctus; placerat mattis conubia. Ante commodo volutpat dolor ante conubia ac litora himenaeos. Ex leo turpis lacinia mollis himenaeos purus.</p>
+            
+            
+            <table class="tabla_4">
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Edad</th>
+                        <th>Deporte</th>
+                        <th>Telefono</th>
+                        <th>E-mail</th>
+                    </tr>
+                </thead>
+                
+                <tbody>
+                    <tr>
+                        <td>Ariel Pérez</td>
+                        <td>18</td>
+                        <td>Futból</td>
+                        <td>222 246 2826</td>
+                        <td>moxxita@gamil.com</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Pablo Ríos</td>
+                        <td>20</td>
+                        <td>Tennis</td>
+                        <td>222 543 6826</td>
+                        <td>pablo@gamil.com</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>María Machorro</td>
+                        <td>21</td>
+                        <td>Natación</td>
+                        <td>222 432 5287</td>
+                        <td>maria12@gmai.com</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Penelope Mayo</td>
+                        <td>19</td>
+                        <td>Atletismo</td>
+                        <td>332482628</td>
+                        <td>penelope12@gmail.com</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Antonio Contreras</td>
+                        <td>21</td>
+                        <td>Basketball</td>
+                        <td>222 546 9287</td>
+                        <td>antony@gmail.com</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Samuel Alvaréz</td>
+                        <td>24</td>
+                        <td>Salto con Garrocha</td>
+                        <td>221 232 4353</td>
+                        <td>sam@gmail.com</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            
+        </section>
+    </main>
+    <footer>
+    <h5>Elaborado por Juan Pablo Rios Peralta</h5>
+    </footer>
+    </body>
+</html>

@@ -1,0 +1,284 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Documento sin título</title>
+<link href="../css/stylepage.css" rel="stylesheet" type="text/css">
+	<style type="text/css">
+		
+		form{
+			width: 50%;
+			height: auto;
+			padding: 30px;
+			background-color: #CE7095;
+			color: aliceblue;
+			margin: 0 auto;
+			border-radius: 15px;
+		}
+		
+		label{
+			padding bottom: 10px;
+			padding-top: 10px;
+			padding-bottom: 10px;
+	
+		}
+		
+		label,imput{
+			display:block;
+			margin-left: 10px;
+			
+		}
+		
+		input[type=text],input[type=password]{
+			width: 100%;
+			color:  #855e63;
+			padding: 5px;
+			border:3px solid #855e63;
+			border-radius: 6px;
+		}
+		
+		input[type=submit]{
+			width: 30%;
+			background-color: #F7F1E1;
+			padding: 5px;
+			margin: 20px auto;
+			display: block;
+			border:3px solid #855e63;
+			border-radius: 6px;
+			color: #855e63;
+			font-weight: bolder
+		}
+		
+		input[type=text]:focus, input[type=password]:focus, input[type=number]:focus{
+			background-color: #FFB2C1;
+			border: 3px solid #FFB2C1;
+		}
+		
+		input[type=number]{
+			width: 100%;
+			color:  #855e63;
+			padding: 5px;
+			border:3px solid #855e63;
+			border-radius: 6px;
+		}
+		
+		select{
+			width: 100%;
+			color:  #855e63;
+			padding: 5px;
+			border:3px solid #855e63;
+			border-radius: 6px;
+		}
+		
+		input[type=color], input[type=date], input[type=file], input[type=time], input [type=tel]{
+			margin-top: 10px;
+			display:block;
+			margin-left: auto;
+			margin-right: auto;
+			font-family: "Sarabun"			
+		}
+		
+		label for="musica"{
+			padding-top: 10px;
+		}
+		
+		input[type=range]{
+			padding-top: 10px;
+			width: 100%;
+		}
+	
+	</style>
+</head>
+
+<body>
+<header>
+		<h1>Formulario</h1>
+</header>
+		<nav>
+		  <ul>
+				<li><a href="../index.html">Inicio</a></li>
+				<li><a href="listas.html">Listas</a></li>
+				<li><a href="enlaces.html">Enlaces</a></li>
+				<li><a href="tablas.html">Tablas</a></li>
+				<li><a href="imagenes.html">Imágenes</a></li>
+				<li><a href="audios.html">Audio</a></li>
+				<li><a href="videos.html">Videos</a></li>
+				<li><a href="formularios.html">Formularios</a></li>
+		  	</ul>
+		</nav>
+	
+<main>
+  <section>
+    <h2>Nombre completo&nbsp;</h2>
+    <p>Para comenzar, por favor indícanos tu nombre. Este pequeño detalle nos permitirá conocer más de ti.</p>
+	  <form action="" method="get">
+		  <label id="">Tu nombre:</label>
+		  <input type="text" id="nombre" name="nombre">
+		  <input type="submit" value="Enviar">
+	  </form>
+  </section>
+	
+	<section>
+    <h2>Artista Favorito&nbsp;</h2>
+    <p>Nos encantaría conocer más sobre tus gustos. Cuéntanos quién es tu artista favorito, ya sea en la música, el arte visual, la literatura o cualquier otro ámbito. Esto nos permitirá entender mejor tus influencias e inspiraciones.&nbsp;</p>
+	  <form action="" method="get">
+		  <label id="">Nombre del artista:</label>
+		  <input type="text" id="nombre" name="nombre">
+		  <input type="submit" value="Enviar">
+	  </form>
+  </section>
+	
+  <section>
+    <h2>Edad y Estado&nbsp;</h2>
+    <p>Me gustaría conocerte un poco mejor. ¿Podrías compartir tu edad y el estado en el que vives? Esto me ayudará a entenderte mejor&nbsp;</p>
+    
+	  <form id="form1" name="form1" method="post">
+      <label for="edad">Edad:</label>
+      <input type="number" name="edad" id="edad" min="15" max="90">
+      <label for="select">Estado:</label>
+      <select name="select" id="estado">
+		  <option value="Aguascalientes">Aguascalientes</option>
+		  <option value="Colima">Colima</option>
+		  <option value="Campeche">Campeche</option>
+		  <option value="Durango">Durango</option>
+		  <option value="Hidalgo">Hidalgo</option>
+		  <option value="Chiapas">Chiapas</option>
+      </select>
+	    <input type="submit" value="Enviar">
+    </form> 
+  </section>
+	
+  <section>
+    <h2>Género&nbsp;</h2>
+    <p>"Indica tu género para continuar con el proceso. Esto nos permitirá ajustar mejor nuestros servicios a tus necesidades."&nbsp;</p>
+    <form id="form2" name="form2" method="post">
+      <label for="Género">Género:</label>
+		<table width="200">
+        <tr>
+          <td><label>
+            <input type="radio" name="G&eacute;nero" value="Mas" id="Geacutenero_0">
+            Masculino</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="G&eacute;nero" value="Fem" id="Geacutenero_1">
+            Femenino</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="G&eacute;nero" value="Otro" id="Geacutenero_2">
+            Otro</label></td>
+        </tr>
+		</table>
+		<input type="submit" value="Enviar">
+    </form>
+  </section>
+	
+	<section>
+    <h2>Género Musical&nbsp;</h2>
+    <p>Me encantaría saber más sobre tus preferencias. ¿Cuál es tu género musical favorito? Esto me ayudará a conocer tus gustos y adaptarme mejor a tus intereses.&nbsp;</p>
+    <form id="form2" name="form2" method="post">
+		<label for="musica">¿Cúal es tu musica favorita?</label>
+	  <table width="200">
+		  <tr>
+		    <td><label>
+		      <input type="checkbox" name="CheckboxGroup1" value="rock" id="CheckboxGroup1_0">
+		      Rock</label></td>
+	      </tr>
+		  <tr>
+		    <td><label>
+		      <input type="checkbox" name="CheckboxGroup1" value="pop" id="CheckboxGroup1_1">
+		      Pop</label></td>
+	      </tr>
+		  <tr>
+		    <td><label>
+		      <input type="checkbox" name="CheckboxGroup1" value="jazz" id="CheckboxGroup1_2">
+		      Jazz</label></td>
+	      </tr>
+		  <tr>
+		    <td><label>
+		      <input type="checkbox" name="CheckboxGroup1" value="punk" id="CheckboxGroup1_3">
+		      Punk</label></td>
+	      </tr>
+		  <tr>
+		    <td><label>
+		      <input type="checkbox" name="CheckboxGroup1" value="tango" id="CheckboxGroup1_4">
+		      Tango</label></td>
+	      </tr>
+	  </table>
+		<input type="submit" value="Enviar">
+    </form>
+  </section>
+	
+	
+  <section>
+    <h2>Color&nbsp;</h2>
+    <p>Para conocerte un poco mejor, ¿cuál es tu color favorito? Me gustaría saber qué colores te inspiran o te hacen sentir bien.&nbsp;</p>
+
+<form action="/action_page.php">
+  <label for="favcolor">Selecciona tu color favorito:</label>
+  	<input type="color" id="favcolor" name="favcolor" value="#511F82">
+	<input type="submit" value="Enviar">
+</form>
+	  
+  </section>
+	
+	<section>
+		<h2>Cumpleaños &nbsp;</h2>
+    <p>¿Cuándo es tu cumpleaños? Me gustaría saberlo para tener una mejor idea de tus celebraciones y lo que significa para ti.&nbsp;</p>
+			<form action="/action_page.php">
+		  <label for="birthday">Fecha</label>
+		  <input type="date" id="birthday" name="birthday">
+		  <input type="submit" value="Enviar">
+
+			</form>	
+	</section>
+	
+	<section>
+		<h2>Máscota&nbsp;</h2>
+    <p>Si tienes una mascota, me encantaría conocerla. ¿Te gustaría compartir una foto de ella? Sería genial ver quién te acompaña en tu día a día.&nbsp;</p>
+<form action="/action_page.php">
+  <label for="myfile">Sube la foto de tu mascota&nbsp; &nbsp;:</label>
+  <input type="file" id="archivo" name="archivo"><br><br>
+  <input type="submit" value="Enviar">
+
+</form>
+	</section>
+	
+	<section>
+		<h2>Televisión&nbsp;</h2>
+    <p>En una escala del 1 al 50, ¿qué tanto disfrutas ver televisión? Desliza para indicar cuánto te gusta.&nbsp;</p>
+	<form action="/action_page.php" method="get">
+  <label for="vol">Desliza (entre 0 y 50):</label>
+  <input type="range" id="vol" name="vol" min="0" max="50">
+  	<input type="submit" value="Enviar">
+</form>  
+	</section>
+	  
+	<section>
+		<h2>Hora Favorita&nbsp;</h2>
+    <p>Comparte conmigo ese momento especial que disfrutas más, ya sea por la tranquilidad, la energía o la inspiración que te brinda.&nbsp;</p>
+	<form action="/action_page.php">
+  <label for="appt">¿Cúal es tu hora favorita del día ?:</label>
+  <input type="time" id="appt" name="appt">
+ <input type="submit" value="Enviar">
+	</form>	  
+	</section>
+	
+	<section>
+		<h2>Télefono&nbsp;</h2>
+    <p>Me gustaría conocerte mejor. ¿Podrías compartir tu número de teléfono? Solo es para tener un dato más sobre ti.&nbsp;</p>
+		<form action="/action_page.php">
+	  <label for="phone">Enter a phone number:</label><br><br>
+	  <input type="tel" id="phone" name="phone" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required><br>
+	  <br><br>
+	  <input type="submit" value="Enviar">
+</form>
+	</section>
+
+	  </main>
+<footer>
+  <h5>Elaborado por Juan Pablo Ríos Peralta&nbsp;</h5>
+</footer>
+</body>
+</html>
